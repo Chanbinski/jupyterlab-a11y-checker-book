@@ -1,0 +1,30 @@
+# Jupyter Book configuration (MVP)
+
+title: JupyterLab A11y Checker
+author: UC Berkeley
+logo: 
+
+repository:
+  url: https://github.com/berkeley-dsep-infra/jupyterlab-a11y-checker
+  path_to_book: a11y-checker-book
+  branch: main
+
+html:
+  favicon: 
+  use_repository_button: true
+  use_issues_button: true
+  use_edit_page_button: true
+
+parse:
+  myst_enable_extensions:
+    - colon_fence
+    - deflist
+    - dollarmath
+    - linkify
+
+execute:
+  execute_notebooks: "off"
+
+sphinx:
+  config:
+    copyright: 2025 UC Berkeley

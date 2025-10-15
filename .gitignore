@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Sphinx / Jupyter Book build & caches
+_build/
+.jupyter_cache/
+.ipynb_checkpoints/
+
+# Test / lint caches (if used)
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Local environment files
+.env
+.env.*
+
+
