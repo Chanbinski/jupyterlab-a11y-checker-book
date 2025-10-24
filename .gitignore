@@ -30,3 +30,6 @@ _build/
 .env.*
 
 
+
+# MyST build outputs
+_build
