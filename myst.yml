@@ -1,0 +1,28 @@
+version: 1
+project:
+  title: JupyterLab A11y Checker
+  exclude:
+    - README.md
+site:
+  template: book-theme
+  title: JupyterLab A11y Checker
+
+toc:
+  - file: index.md
+  - title: Getting Started
+    file: getting-started.md
+  - title: User Guide
+    file: user-guide.md
+  - title: Components
+    children:
+      - title: Rules
+        file: components/rules.md
+      - title: Fix
+        file: components/fix.md
+      - title: AI Assistance
+        file: components/ai-assistance.md
+  - title: Examples
+    file: examples/intro.md
+  - title: FAQ & Troubleshooting
+    file: faq.md
+

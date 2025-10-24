@@ -2,6 +2,7 @@
 title: Fix Interfaces
 ---
 
+(fix-ui-index)=
 # Fix Interfaces
 
 ## Image

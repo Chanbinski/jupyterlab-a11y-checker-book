@@ -2,11 +2,10 @@
 title: Rules Overview
 ---
 
+(rules-index)=
 # Rules Overview
 
 ```{contents}
-:local:
-:depth: 1
 ```
 
 This section summarizes the categories checked by the extension and maps them to WCAG 2.1 AA.
@@ -55,5 +54,3 @@ This section summarizes the categories checked by the extension and maps them to
 The extension also integrates axe-core to detect other standards-based accessibility issues.
 ```
 
-```{label} rules-index
-```

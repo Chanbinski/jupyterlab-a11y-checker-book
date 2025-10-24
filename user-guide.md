@@ -15,7 +15,7 @@ title: User Guide
 - Tables: add header(s), caption, and set `scope`.
 - Color: note contrast issues and adjust content or theme.
 
-See {doc}`components/rules` and {doc}`components/fix` for details.
+See [](components/rules) and [](components/fix) for details.
 
 ## Configuring AI assistance
 - Go to `Settings > Settings Editor > A11y Checker Settings`.

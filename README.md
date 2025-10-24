@@ -1,29 +1,34 @@
+---
+draft: true
+---
+
 # a11y-checker-book
 
 Quick guide to build and view this jupyter book for [jupyterlab-a11y-checker](https://github.com/berkeley-dsep-infra/jupyterlab-a11y-checker).
 
-## Build
-```bash
-jupyter-book build .
-```
-- Output is generated in `_build/html/`.
+## MyST (mystmd)
+You can preview and build this book using the MyST CLI (`mystmd`). See the Quickstart: https://mystmd.org/guide/quickstart
 
-## Preview
-- Open the built site directly:
+### Install mystmd (choose one)
 ```bash
-open _build/html/index.html
-```
-- Or serve locally:
-```bash
-python3 -m http.server -d _build/html 8000
-# Visit http://localhost:8000
+# conda-forge
+conda install -c conda-forge mystmd
+
+# or pip
+pip install mystmd
+
+# or npm (requires Node >= 18)
+npm install -g mystmd
 ```
 
-## Clean
+### Develop and build with mystmd
 ```bash
-jupyter-book clean .
-# remove all build artifacts
-jupyter-book clean --all .
+# initialize (writes myst.yml if missing)
+myst
+
+# start local dev server (port 3000)
+myst start
+
+# build static site to _build/site
+myst build
 ```
-
-
