@@ -21,6 +21,7 @@ project:
       file: examples/intro.md
     - title: FAQ & Troubleshooting
       file: faq.md
+  github: https://github.com/berkeley-dsep-infra/jupyterlab-a11y-checker-book
 
 site:
   template: book-theme

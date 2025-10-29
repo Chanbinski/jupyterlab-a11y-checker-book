@@ -2,7 +2,7 @@
 title: Introduction
 ---
 
-# jupyterlab-a11y-checker
+## jupyterlab-a11y-checker
 
 jupyterLab-a11y-checker is a JupyterLab extension that helps authors detect and fix accessibility issues in Jupyter Notebooks, aligning with WCAG 2.1 AA guidelines. It combines the strengths of axe-core, a widely used accessibility engine, with custom notebook-specific detection algorithms that address issues axe cannot reliably cover in JupyterLab. Specifically the extension can:
 
