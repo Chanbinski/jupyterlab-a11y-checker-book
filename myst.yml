@@ -26,4 +26,5 @@ project:
 site:
   template: book-theme
   title: JupyterLab A11y Checker
-
+  domains:
+    - a11y-checker-guide.datahub.berkeley.edu
